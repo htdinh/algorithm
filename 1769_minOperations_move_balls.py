@@ -21,7 +21,6 @@ class Solution:
         return new_cost
 
     def minOperations2(self, boxes: str) -> List[int]:
-
         """
         Approach: Consider a position i-th.
         Total effort = Effort to move all balls from left of ith to ith position + Same effort for all ball to the right
